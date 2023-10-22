@@ -17,7 +17,7 @@ public class Media {
         float mediN = (nota1 + nota2 + nota3 + nota4)/4;
         if (mediN >= 7){
             System.out.println("Aprovado");
-        }else if (mediN >= 5 && mediN<= 6){
+        }else if (mediN >= 5){
             System.out.println("Recuperação");
         } else {
             System.out.println("Reprovado");
